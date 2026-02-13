@@ -34,8 +34,8 @@
    cd my-blog-back-app
 2. **Соберите проект и запустите контейнеры:**
    ```bash
-   mvn clean package -DskipTests
-   docker-compose up -d --build
+   mvn clean package
+   docker-compose up --build
 3. **API будет доступно по адресу: http://localhost:8080/**
 
 ## Эндпоинты (API)
